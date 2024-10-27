@@ -1,0 +1,36 @@
+.card {
+  width: 432px; /* 360 */
+  min-height: 608px; /* 400 */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.first_card {
+  border-radius: 20px 0 0 20px;
+}
+
+.last_card {
+  border-radius: 0 20px 20px 0;
+}
+
+.only_card {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 360px;
+    height: 400px;
+  }
+
+  .first_card {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .last_card {
+    border-radius: 0 0 20px 20px;
+  }
+}

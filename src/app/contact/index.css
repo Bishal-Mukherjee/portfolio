@@ -1,0 +1,4 @@
+.element {
+  margin-top: -32px;
+  transition: margin-top 1.5s ease-in-out;
+}
