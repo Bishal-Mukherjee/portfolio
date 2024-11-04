@@ -2,7 +2,6 @@
 
 import React from "react";
 import { usePathname } from "next/navigation";
-import { Button } from "@/components/ui/button";
 import { Logo } from "@/assets/svg";
 
 const Navbar = () => {
@@ -19,13 +18,6 @@ const Navbar = () => {
             <p className="text-lg mt-1"> Let&apos;s connect!</p>
           ) : (
             <p className="mt-1">Welcome!</p>
-          )}
-          {!isContactPage && (
-            <a href="/contact">
-              <Button variant={"outline"} className="rounded-3xl h-12 text-md">
-                Let&apos;s connect?
-              </Button>
-            </a>
           )}
         </div>
       </div>

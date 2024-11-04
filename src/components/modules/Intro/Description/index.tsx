@@ -12,7 +12,7 @@ const Description = () => {
           Hi, I&apos;m Bishal. Thanks for stopping by!
         </p>
 
-        <p className="font-medium mt-4 text-center text-white md:w-2/4 md:px-4">
+        <p className="font-medium mt-8 text-center text-white md:w-2/4 md:px-8">
           Highly motivated Full Stack Software Engineer with 3+ years of
           experience in designing, developing, and deploying scalable web and
           mobile applications. Proficient in MERN/MEAN stack technologies,
