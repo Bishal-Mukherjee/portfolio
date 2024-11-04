@@ -9,6 +9,7 @@ const response = [
       "I thrive on building dynamic and responsive web applications using the MERN/MEAN stack. My passion lies in creating intuitive user interfaces backed by robust server-side logic.",
     skills: [
       "React",
+      "Next",
       "Node.js",
       "Express",
       "MongoDB",

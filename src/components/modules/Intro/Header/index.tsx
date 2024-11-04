@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
@@ -19,6 +20,15 @@ const Header = () => {
         height={172}
         className="mt-4"
       />
+
+      <a href="/contact">
+        <Button
+          variant={"outline"}
+          className="rounded-3xl h-12 text-md bg-[#202020] text-white mt-[-8px]"
+        >
+          Let&apos;s connect?
+        </Button>
+      </a>
     </Fragment>
   );
 };
